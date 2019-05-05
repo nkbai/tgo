@@ -568,9 +568,9 @@ func (c *Controller) printableFunc(f *tracee.Function) bool {
 
 func (c *Controller) printFunctionInput(goRoutineID int64, stackFrame *tracee.StackFrame, depth int) error {
 	var args []string
-	for _, arg := range stackFrame.InputArguments {
-		args = append(args, arg.ParseValue(c.parseLevel))
-	}
+	//for _, arg := range stackFrame.InputArguments {
+	//	args = append(args, arg.ParseValue(c.parseLevel))
+	//}
 
 	fmt.Fprintf(c.outputWriter, "%s\\ (#%02d) %s(%s)\n", strings.Repeat("|", depth-1), goRoutineID, stackFrame.Function.Name, strings.Join(args, ", "))
 

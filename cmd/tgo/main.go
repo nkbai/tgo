@@ -30,10 +30,10 @@ Flags:
 	verbose := commandLine.Bool("verbose", false, verboseOptionDesc)
 
 	commandLine.Parse(args)
-	if commandLine.NArg() < 1 {
-		commandLine.Usage()
-		os.Exit(1)
-	}
+	// if commandLine.NArg() < 1 {
+	// 	commandLine.Usage()
+	// 	os.Exit(1)
+	// }
 	log.EnableDebugLog = *verbose
 
 	return service.Serve(commandLine.Arg(0))
