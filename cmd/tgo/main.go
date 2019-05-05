@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ks888/tgo/log"
-	"github.com/ks888/tgo/service"
+	"github.com/nkbai/tgo/log"
+	"github.com/nkbai/tgo/service"
 )
 
 const (
@@ -50,7 +50,7 @@ Usage:
 
 Commands:
 
-  server   launches the server which offers tracing service. See https://godoc.org/github.com/ks888/tgo/service for the detail.
+  server   launches the server which offers tracing service. See https://godoc.org/github.com/nkbai/tgo/service for the detail.
 
 Use "tgo <command> --help" for more information about a command.
 `, os.Args[0])
