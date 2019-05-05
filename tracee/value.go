@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ks888/tgo/log"
+	"github.com/nkbai/tgo/log"
 )
 
 const maxContainerItemsToPrint = 8

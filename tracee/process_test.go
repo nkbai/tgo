@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ks888/tgo/testutils"
+	"github.com/nkbai/tgo/testutils"
 	"golang.org/x/arch/x86/x86asm"
 )
 

@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ks888/tgo/debugapi"
-	"github.com/ks888/tgo/tracee"
+	"github.com/nkbai/tgo/debugapi"
+	"github.com/nkbai/tgo/tracee"
 	"golang.org/x/arch/x86/x86asm"
 )
 

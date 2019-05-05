@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ks888/tgo/testutils"
+	"github.com/nkbai/tgo/testutils"
 )
 
 var helloworldAttrs = Attributes{

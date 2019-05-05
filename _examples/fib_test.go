@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func TestFib(t *testing.T) {

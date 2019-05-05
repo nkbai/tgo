@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ks888/tgo/log"
+	"github.com/nkbai/tgo/log"
 	"golang.org/x/sys/unix"
 )
 

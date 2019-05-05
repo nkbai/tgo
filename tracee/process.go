@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ks888/tgo/debugapi"
-	"github.com/ks888/tgo/log"
+	"github.com/nkbai/tgo/debugapi"
+	"github.com/nkbai/tgo/log"
 	"golang.org/x/arch/x86/x86asm"
 )
 

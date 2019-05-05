@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ks888/tgo/testutils"
+	"github.com/nkbai/tgo/testutils"
 	"golang.org/x/sys/unix"
 )
 

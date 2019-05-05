@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ks888/tgo/log"
+	"github.com/nkbai/tgo/log"
 )
 
 // moduleData represents the value of the moduledata type.

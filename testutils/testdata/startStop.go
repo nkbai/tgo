@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 //go:noinline

@@ -1,6 +1,6 @@
 package tracer
 
-import "github.com/ks888/tgo/log"
+import "github.com/nkbai/tgo/log"
 
 type tracingPoints struct {
 	startAddressList []uint64

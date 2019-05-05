@@ -1,8 +1,8 @@
 # tgo: a function tracer to boost your debugging
 
-[![GoDoc](https://godoc.org/github.com/ks888/tgo?status.svg)](https://godoc.org/github.com/ks888/tgo/lib/tracer)
+[![GoDoc](https://godoc.org/github.com/nkbai/tgo?status.svg)](https://godoc.org/github.com/nkbai/tgo/lib/tracer)
 [![Build Status](https://travis-ci.com/ks888/tgo.svg?branch=master)](https://travis-ci.com/ks888/tgo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ks888/tgo)](https://goreportcard.com/report/github.com/ks888/tgo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nkbai/tgo)](https://goreportcard.com/report/github.com/nkbai/tgo)
 
 ### Example
 
@@ -16,7 +16,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func fib(n int) int {
@@ -80,7 +80,7 @@ When you run the program, the trace logs are printed:
 Install the `tgo` binary and its library:
 
 ```
-go get -u github.com/ks888/tgo/cmd/tgo
+go get -u github.com/nkbai/tgo/cmd/tgo
 ```
 
 If you have an error, you may need to install Xcode Command Line Tools: `xcode-select --install`
@@ -90,7 +90,7 @@ If you have an error, you may need to install Xcode Command Line Tools: `xcode-s
 Install the `tgo` binary and its library:
 
 ```
-go get -u github.com/ks888/tgo/cmd/tgo
+go get -u github.com/nkbai/tgo/cmd/tgo
 ```
 
 The `tgo` binary attaches to your process using the ptrace mechanism. To enable this, run the command below:
@@ -119,7 +119,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func fib(n int) int {
@@ -165,7 +165,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func fib(n int) int {
@@ -220,7 +220,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func TestFib(t *testing.T) {
@@ -263,6 +263,6 @@ Note that GOFLAGS is not supported in go 1.10 or earlier.
 #### Tips
 
 There are some random tips:
-* There are more options to change the tgo's behaviors. See the [godoc](https://godoc.org/github.com/ks888/tgo/lib/tracer) for details.
+* There are more options to change the tgo's behaviors. See the [godoc](https://godoc.org/github.com/nkbai/tgo/lib/tracer) for details.
 * When a go routine calls `tracer.Start()`, it means only that go routine is traced. Other go routines are not affected. Similarly, `tracer.Stop()` just stops the tracing of the go routine which called the Stop function.
 * Builtin functions are not traced. These functions are usually replaced with `runtime` package functions or assembly instructions.

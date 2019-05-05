@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ks888/tgo/testutils"
+	"github.com/nkbai/tgo/testutils"
 )
 
 func TestAttachAndDetach(t *testing.T) {

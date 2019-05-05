@@ -8,7 +8,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ks888/tgo/testutils"
+	"github.com/nkbai/tgo/testutils"
 )
 
 func TestOpenBinaryFile(t *testing.T) {

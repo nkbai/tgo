@@ -6,8 +6,8 @@ import (
 	"net/rpc"
 	"sync"
 
-	"github.com/ks888/tgo/log"
-	"github.com/ks888/tgo/tracer"
+	"github.com/nkbai/tgo/log"
+	"github.com/nkbai/tgo/tracer"
 )
 
 const serviceVersion = 1 // increment whenever any changes are aded to service methods.

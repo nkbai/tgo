@@ -16,7 +16,7 @@ import (
 	"time"
 	"unsafe" // For go:linkname
 
-	"github.com/ks888/tgo/service"
+	"github.com/nkbai/tgo/service"
 )
 
 const expectedVersion = 1

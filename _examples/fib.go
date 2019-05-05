@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ks888/tgo/lib/tracer"
+	"github.com/nkbai/tgo/lib/tracer"
 )
 
 func fib(n int) int {

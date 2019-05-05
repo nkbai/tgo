@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ks888/tgo/log"
+	"github.com/nkbai/tgo/log"
 )
 
 var (
@@ -352,7 +352,7 @@ func buildProgramStartStop(srcDirname string) error {
 		switch name {
 		case "main.tracedFunc":
 			StartStopAddrTracedFunc = value
-		case "github.com/ks888/tgo/lib/tracer.Off":
+		case "github.com/nkbai/tgo/lib/tracer.Off":
 			StartStopAddrTracerOff = value
 		case "runtime.firstmoduledata":
 			StartStopAddrFirstModuleData = value
