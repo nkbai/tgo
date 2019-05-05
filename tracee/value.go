@@ -388,9 +388,9 @@ func (b valueParser) parseValue(rawTyp dwarf.Type, val []byte, remainingDepth in
 		}
 		return arrayValue{ArrayType: typ, val: vals}
 	case *dwarf.TypedefType:
-		if strings.HasPrefix(typ.String(), "map[") {
-			return b.parseMapValue(typ, val, remainingDepth)
-		}
+		//if strings.HasPrefix(typ.String(), "map[") {
+		//	return b.parseMapValue(typ, val, remainingDepth)
+		//}
 
 		// In this case, virtually do nothing so far. So do not decrement `remainingDepth`.
 		return b.parseValue(typ.Type, val, remainingDepth)
